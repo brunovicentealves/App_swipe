@@ -27,26 +27,26 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSwipeBottom() {
                 super.onSwipeBottom();
-                tvSwite.setText("para baixo");
+                tvSwite.setText("para baixo !");
             }
 
             @Override
             public void onSwipeTop() {
                 super.onSwipeTop();
-                tvSwite.setText("para cima");
+                tvSwite.setText("para cima!");
             }
 
             @Override
             public void onSwipeLeft() {
                 super.onSwipeLeft();
-                tvSwite.setText("para esquerda");
+                tvSwite.setText("para esquerda!");
             }
 
 
             @Override
             public void onSwipeRight() {
                 super.onSwipeRight();
-                tvSwite.setText("para direita");
+                tvSwite.setText("para direita!");
             }
 
 
